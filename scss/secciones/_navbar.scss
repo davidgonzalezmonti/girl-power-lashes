@@ -1,0 +1,25 @@
+.conteiner-fluid {
+	background-color: $transparienciaBlanca;
+	img{
+		width: 168px;
+	}
+}
+.nav-link {
+	color: black;
+}
+.collapse.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.navbar-collapse {
+	text-align: center;
+}
+.nav-item {
+	a {
+		&:hover {
+			transform: scale(1.05);
+			color: $textoVioleta !important;
+			transition: all 0.6s;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import './variables/colores';
+ 
+@import './secciones/navbar.scss';
+@import './secciones/contenido.scss';
+@import './secciones/footer.scss';
+
+body{
+    background-image: url(../imagenesProyectoFinal/fondoVioleta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
