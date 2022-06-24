@@ -1,0 +1,53 @@
+.mainContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    .seccion {
+        width: 700px;
+        border: #ffffff 1px solid;
+        margin: 14px;
+        border-radius: 10px;
+        background-color: #ffffff7a;
+        .form {
+            display: block;
+            flex-wrap: nowrap;
+            text-align: center;
+            padding: 24px;
+        }
+        .form p {
+            font-size: 40px;
+            font-family: 'Bebas Neue', cursive;
+            padding-bottom: 10px;
+        }
+        .form input {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            font-size: 20px;
+            font-family: 'Akshar', sans-serif;
+        }
+        .form textarea {
+            padding: 16px;
+            border: 1px solid #ced4da;
+            border-radius: 1.25rem;
+        }
+        .form button {
+            font-family: 'Akshar', sans-serif;
+            font-size: 20px;
+            height: 34px;
+            width: 192px;
+            margin: 10px;
+            border-radius: 5px;
+            transition: all 0.8s ease;
+            border: none;
+            &:hover{
+                background-color: #370058;
+                color: #ced4da;
+                transform: scale(1.1);
+            }
+        }
+    }
+}

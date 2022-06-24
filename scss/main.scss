@@ -6,8 +6,12 @@
 @import './variables/colores';
  
 @import './secciones/navbar.scss';
-@import './secciones/contenido.scss';
 @import './secciones/footer.scss';
+@import './secciones/inicio';
+@import './secciones/servicios';
+@import './secciones/galeria';
+@import './secciones/curso';
+@import './secciones/contacto';
 
 body{
     background-image: url(../imagenesProyectoFinal/fondoVioleta.jpg);

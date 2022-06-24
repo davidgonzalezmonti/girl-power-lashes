@@ -11,14 +11,37 @@ footer {
 
         i {
             color: $textoVioleta;
-            font-size: 30px;
+            font-size: 40px;
             transition: all 0.5s;
             margin: 3px;
-            
+
             &:hover {
                 transform: scale(1.1);
             }
 
         }
     }
+
+    .fa-instagram {
+        &:hover {
+            background: rgb(229, 146, 236);
+            background: linear-gradient(180deg, rgba(229, 146, 236, 1) 0%, rgba(255, 58, 198, 1) 22%, rgba(251, 0, 0, 1) 62%, rgba(255, 49, 35, 1) 73%, rgba(232, 229, 0, 1) 95%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    }
+
+    .fa-whatsapp {
+        &:hover {
+            color: rgb(17, 169, 0);
+        }
+    }
+
+    .fa-facebook{
+        &:hover{
+            color: rgb(0, 32, 236);
+        }
+    }
+
 }
