@@ -25,11 +25,85 @@
             border-radius: 20px;
             padding: 10px;
         }
-        video{
+
+        video {
             max-height: 356px;
             border-radius: 67px;
             box-shadow: 0px 0px 11px 0px black;
             margin-left: 24px;
         }
     }
+}
+
+
+@media (max-width:768px) {
+
+    .cursos {
+        h1 {
+            text-align: center;
+        }
+
+        div {
+            flex-direction: column;
+            text-align: center;
+            flex-direction: column;
+
+            p {
+                width: 434px;
+            }
+
+            video {
+                margin-top: 40px;
+                margin-left: 0px;
+            }
+        }
+
+    }
+
+}
+
+@media (max-width:426px) {
+    .cursos {
+        h1 {
+            padding: 20px 0px 0px;
+
+        }
+
+        div {
+            padding: 20px 20px 20px 20px;
+
+            p {
+                width: 331px;
+            }
+
+            video {
+                margin: 20px 10px;
+            }
+        }
+    }
+
+}
+
+@media (max-width:376px) {
+    .cursos {
+        h1 {
+            padding: 20px;
+        }
+
+        div {
+            flex-direction: column;
+            padding: 20px 20px 20px 20px;
+
+            p {
+                font-size: 1.5rem;
+                max-width: 286px;
+            }
+
+            video {
+                margin: 20px;
+                max-height: 293px;
+            }
+        }
+    }
+
 }

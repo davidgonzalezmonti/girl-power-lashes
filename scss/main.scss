@@ -10,11 +10,11 @@
 @import './secciones/inicio';
 @import './secciones/servicios';
 @import './secciones/galeria';
-@import './secciones/curso';
+@import './secciones/cursos';
 @import './secciones/contacto';
 
 body{
-    background-image: url(../imagenesProyectoFinal/fondoVioleta.jpg);
+    background-image: url(https://res.cloudinary.com/dbaqismy5/image/upload/v1656199795/fondoVioleta_b8aqks.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

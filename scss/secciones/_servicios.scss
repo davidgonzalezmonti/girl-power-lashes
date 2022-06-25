@@ -28,6 +28,7 @@
 
         ul {
             padding-left: 0rem;
+
             li {
                 list-style: none;
                 text-align: center;
@@ -42,7 +43,8 @@
 
 .serviciosUno {
     grid-area: serviciosUno;
-    h1{
+
+    h1 {
         font-size: 3rem;
         margin: 20px 0px 5px 0px;
         font-family: 'Bebas Neue', cursive;
@@ -52,20 +54,78 @@
 
 .serviciosDos {
     grid-area: serviciosDos;
-    h2{
-        font-size: 3rem;
-        margin: 20px 0px 5px 0px;
-        font-family: 'Bebas Neue', cursive;
-        text-shadow: 1px 0px 20px #000000; 
-    }
-}
 
-.serviciosTres {
-    grid-area: serviciosTres;
-    h3{
+    h2 {
         font-size: 3rem;
         margin: 20px 0px 5px 0px;
         font-family: 'Bebas Neue', cursive;
         text-shadow: 1px 0px 20px #000000;
     }
+}
+
+.serviciosTres {
+    grid-area: serviciosTres;
+
+    h3 {
+        font-size: 3rem;
+        margin: 20px 0px 5px 0px;
+        font-family: 'Bebas Neue', cursive;
+        text-shadow: 1px 0px 20px #000000;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .estilos-servicios {
+        img {
+            width: 275px;
+            height: 246px;
+            padding: 15px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .gridServicios {
+        grid-template-areas:
+            "serviciosUno serviciosUno serviciosUno"
+            "serviciosDos serviciosDos serviciosDos"
+            "serviciosTres serviciosTres serviciosTres"
+            "footer footer footer";
+
+        .estilos-servicios {
+            margin: 50px auto 50px auto;
+            padding: 50px;
+
+            img {
+                width: 314px;
+                height: 309px;
+                padding: 0px;
+            }
+        }
+    }
+}
+
+@media (max-width:426px) {
+    .estilos-servicios {
+        margin: 30px;
+
+        img {
+            width: 326px;
+            height: 325px;
+        }
+    }
+
+}
+
+@media (max-width:376px) {
+    .estilos-servicios {
+        margin: 20px 20px 20px 20px;
+
+        img {
+            width: 259px;
+            height: 310px;
+        }
+    }
+
 }

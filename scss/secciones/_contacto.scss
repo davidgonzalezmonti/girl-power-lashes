@@ -1,26 +1,30 @@
-.mainContacto{
+.mainContacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 70px;
+
     .seccion {
         width: 700px;
         border: #ffffff 1px solid;
         margin: 14px;
         border-radius: 10px;
         background-color: #ffffff7a;
+
         .form {
             display: block;
             flex-wrap: nowrap;
             text-align: center;
             padding: 24px;
         }
+
         .form p {
             font-size: 40px;
             font-family: 'Bebas Neue', cursive;
             padding-bottom: 10px;
         }
+
         .form input {
             margin: 10px;
             padding: 10px;
@@ -29,11 +33,13 @@
             font-size: 20px;
             font-family: 'Akshar', sans-serif;
         }
+
         .form textarea {
             padding: 16px;
             border: 1px solid #ced4da;
             border-radius: 1.25rem;
         }
+
         .form button {
             font-family: 'Akshar', sans-serif;
             font-size: 20px;
@@ -43,11 +49,48 @@
             border-radius: 5px;
             transition: all 0.8s ease;
             border: none;
-            &:hover{
+
+            &:hover {
                 background-color: #370058;
                 color: #ced4da;
                 transform: scale(1.1);
             }
         }
     }
+}
+
+@media (max-width:426px) {
+    .mainContacto {
+        .seccion {
+            width: 300px;
+            margin: 0px;
+
+            .form input {
+                text-align: center;
+            }
+
+            .form textarea {
+                padding: 0px;
+                width: 100%;
+                height: 250px;
+                text-align: center;
+                font-family: 'Akshar', sans-serif;
+                font-size: 20px;
+            }
+        }
+    }
+
+}
+
+@media (max-width:376px) {
+    .mainContacto {
+        .seccion {
+
+            .form input {
+                max-height: 12px;
+                max-width: 200px;
+            }
+        }
+    }
+
 }
