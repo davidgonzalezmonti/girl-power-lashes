@@ -40,19 +40,22 @@
 
 
 
-@media (max-width:426px) {
+@media (max-width: 426px) {
 
-    .main{
+    .main {
         padding: 0px;
-        h1{
+
+        h1 {
             font-size: 50px;
             margin: 22px;
         }
-        img{
+
+        img {
             height: 300px;
             margin: 20px;
         }
-        h2{
+
+        h2 {
             font-size: 1.7rem;
             margin: 10px;
         }
@@ -60,16 +63,20 @@
 
 }
 
-@media (max-width:376px){
-    .main{
+@media (max-width:376px) {
+    
+    .main {
         padding: 10px;
-        h1{
+
+        h1 {
             font-size: 40px;
         }
-        img{
+
+        img {
             height: 250px;
         }
-        h2{
+
+        h2 {
             font-size: 1.5rem;
         }
     }
