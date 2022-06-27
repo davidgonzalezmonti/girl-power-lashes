@@ -1,0 +1,30 @@
+- cambio 1:
+Agregue etiqueta atitle:
+Index: Girl Power Lashes
+Servicios: Servicios - Girl Power Lashes
+Galeria: Galeria - Girl Power Lashes
+Cursos: Cursos - Girl Power Lashes
+Contacto: Contacto - Girl Power Lashes
+
+- cambio 2:
+Agrugue etiqueta meta "keywords":
+Index: "lashes, pestañas, cejas, depilacion, girl power"
+Servicios: "lashes, pestañas, cejas, depilacion, girl power, lifting, perfilado"
+Galeria: "lashes, pestañas, cejas, fotos, ojos, girl power"
+Cursos: "lashes, pestañas, extenciones, cursos, lifting, girl power"
+Contacto: "lashes, pestañas, cejas, depilacion, lifting, contacto, girl power"
+
+- cambio 3:
+Agregue etiqueta meta "description":
+Index: "Vivi la experiencia Girl Power Lashes, sentite comoda, sentite linda."
+Servicios: "Servicios de excelencia, dedicación y profesionalismo. Se parte de Girl Power Lashes."
+Galeria: "Profesionalismo y dedicación, estamos en cada detalle. Ellas ya vivieron la experiencia Girl Power Lashes"
+Cursos: "Aprende todo sobre pestañas, se una profesional, anotate a los cursos de Girl Power Lashes"
+Contacto: "Contactate con nosotras, vivi la experiencia Girl Power Lashes"
+
+-cambio 4:
+Descargue y coloque el "sitemap.xml" en la carpeta principal.
+
+-cambio 5:
+Realice este block de notas detallando todos los pasos para la aplicación de SEO.
+
