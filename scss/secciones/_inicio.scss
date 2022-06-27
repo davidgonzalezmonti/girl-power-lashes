@@ -1,18 +1,18 @@
 .main {
-    grid-area: main;
     text-align: center;
-    padding: 82px;
+    padding: 30px;
     height: 85%;
     background-size: cover;
     height: auto;
     width: auto;
 
     h1 {
-        font-size: 50px;
-        font-family: 'Signika Negative', sans-serif;
+        font-size: 5rem;
+        font-family: $Bebas;
         color: $textoPrincipal;
         text-shadow: 0px 0px 8px #000000;
         height: 89px;
+        margin: 0px 0px 28px 0px;
     }
 
     img {
@@ -29,12 +29,13 @@
 
     h2 {
         font-size: 2rem;
-        margin-top: 30px;
-        font-family: 'Signika Negative', sans-serif;
+        margin: 50px auto 15px auto;
+        font-family: $Akshar;
         color: $textoPrincipal;
         background-color: #00000063;
         border-radius: 50px;
         padding: 12px;
+        width: 80%;
     }
 }
 
@@ -46,8 +47,9 @@
         padding: 0px;
 
         h1 {
-            font-size: 50px;
-            margin: 22px;
+            font-size: 60px;
+            margin: 10px 0px 5px 0px;
+            padding: 13px;
         }
 
         img {
@@ -57,19 +59,20 @@
 
         h2 {
             font-size: 1.7rem;
-            margin: 10px;
+            width: 90%;
         }
     }
 
 }
 
 @media (max-width:376px) {
-    
+
     .main {
         padding: 10px;
 
         h1 {
-            font-size: 40px;
+            font-size: 50px;
+            margin: 0px 0px -20px 0px;
         }
 
         img {
@@ -81,4 +84,13 @@
         }
     }
 
+}
+
+@media (max-width:321px) {
+    .main {
+
+        h1 {
+            margin: 0px 0px 36px 0px;
+        }
+    }
 }

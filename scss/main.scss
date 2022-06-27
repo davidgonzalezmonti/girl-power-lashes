@@ -3,7 +3,12 @@
     padding: 0;
 }
 
+//variables
+
+@import './variables/tipografias';
 @import './variables/colores';
+@import './variables/extend';
+@import './variables/mixins';
  
 @import './secciones/navbar.scss';
 @import './secciones/footer.scss';

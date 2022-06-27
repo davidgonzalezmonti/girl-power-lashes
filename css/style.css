@@ -1,6 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0;
   padding: 0; }
+
+.serviciosUno h1, .serviciosDos h2, .serviciosTres h3 {
+  font-size: 3rem;
+  margin: 20px 0px 5px 0px;
+  font-family: "Bebas Neue", cursive;
+  text-shadow: 1px 0px 20px #000000; }
+
+footer div i {
+  color: #540354f2;
+  font-size: 40px;
+  transition: all 0.8s;
+  margin: 3px; }
 
 .conteiner-fluid {
   background-color: #ffffffa3; }
@@ -30,38 +44,34 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap; }
-    footer div i {
-      color: #540354f2;
-      font-size: 40px;
-      transition: all 0.5s;
-      margin: 3px; }
-      footer div i:hover {
-        transform: scale(1.1); }
   footer .fa-instagram:hover {
     background: #e592ec;
     background: linear-gradient(180deg, #e592ec 0%, #ff3ac6 22%, #fb0000 62%, #ff3123 73%, #e8e500 95%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text; }
+    background-clip: text;
+    transform: scale(1.2); }
   footer .fa-whatsapp:hover {
+    transform: scale(1.2);
     color: #11a900; }
   footer .fa-facebook:hover {
+    transform: scale(1.2);
     color: #0020ec; }
 
 .main {
-  grid-area: main;
   text-align: center;
-  padding: 82px;
+  padding: 30px;
   height: 85%;
   background-size: cover;
   height: auto;
   width: auto; }
   .main h1 {
-    font-size: 50px;
-    font-family: 'Signika Negative', sans-serif;
+    font-size: 5rem;
+    font-family: "Bebas Neue", cursive;
     color: white;
     text-shadow: 0px 0px 8px #000000;
-    height: 89px; }
+    height: 89px;
+    margin: 0px 0px 28px 0px; }
   .main img {
     border-radius: 50%;
     height: 384px;
@@ -71,35 +81,49 @@ footer {
       transform: scale(1.1); }
   .main h2 {
     font-size: 2rem;
-    margin-top: 30px;
-    font-family: 'Signika Negative', sans-serif;
+    margin: 50px auto 15px auto;
+    font-family: "Akshar", sans-serif;
     color: white;
     background-color: #00000063;
     border-radius: 50px;
-    padding: 12px; }
+    padding: 12px;
+    width: 80%; }
 
 @media (max-width: 426px) {
   .main {
     padding: 0px; }
     .main h1 {
-      font-size: 50px;
-      margin: 22px; }
+      font-size: 60px;
+      margin: 10px 0px 5px 0px;
+      padding: 13px; }
     .main img {
       height: 300px;
       margin: 20px; }
     .main h2 {
       font-size: 1.7rem;
-      margin: 10px; } }
+      width: 90%; } }
+
+@media (max-width: 376px) {
+  .main {
+    padding: 10px; }
+    .main h1 {
+      font-size: 50px;
+      margin: 0px 0px -20px 0px; }
+    .main img {
+      height: 250px; }
+    .main h2 {
+      font-size: 1.5rem; } }
+
+@media (max-width: 321px) {
+  .main h1 {
+    margin: 0px 0px 36px 0px; } }
 
 .gridServicios {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-flow: row;
-  grid-template-areas: "serviciosUno serviciosDos serviciosTres"
- "serviciosUno serviciosDos serviciosTres"
- "serviciosUno serviciosDos serviciosTres"
- "footer footer footer";
-  color: #ffffff; }
+  grid-template-areas: "serviciosUno serviciosDos serviciosTres" "serviciosUno serviciosDos serviciosTres" "serviciosUno serviciosDos serviciosTres" "footer footer footer";
+  color: white; }
   .gridServicios .estilos-servicios {
     display: flex;
     flex-direction: column;
@@ -119,33 +143,49 @@ footer {
       .gridServicios .estilos-servicios ul li {
         list-style: none;
         text-align: center;
-        font-family: 'Akshar', sans-serif;
+        font-family: "Akshar", sans-serif;
         font-size: 2rem;
         text-shadow: 1px 0px 20px #000000; }
 
 .serviciosUno {
   grid-area: serviciosUno; }
-  .serviciosUno h1 {
-    font-size: 3rem;
-    margin: 20px 0px 5px 0px;
-    font-family: 'Bebas Neue', cursive;
-    text-shadow: 1px 0px 20px #000000; }
 
 .serviciosDos {
   grid-area: serviciosDos; }
-  .serviciosDos h2 {
-    font-size: 3rem;
-    margin: 20px 0px 5px 0px;
-    font-family: 'Bebas Neue', cursive;
-    text-shadow: 1px 0px 20px #000000; }
 
 .serviciosTres {
   grid-area: serviciosTres; }
-  .serviciosTres h3 {
-    font-size: 3rem;
-    margin: 20px 0px 5px 0px;
-    font-family: 'Bebas Neue', cursive;
-    text-shadow: 1px 0px 20px #000000; }
+
+@media (max-width: 1024px) {
+  .gridServicios .estilos-servicios img {
+    width: 275px;
+    height: 246px;
+    padding: 15px; } }
+
+@media (max-width: 768px) {
+  .gridServicios {
+    grid-template-areas: "serviciosUno serviciosUno serviciosUno" "serviciosDos serviciosDos serviciosDos" "serviciosTres serviciosTres serviciosTres" "footer footer footer"; }
+    .gridServicios .estilos-servicios {
+      margin: 50px auto 50px auto;
+      padding: 50px; }
+      .gridServicios .estilos-servicios img {
+        width: 314px;
+        height: 309px;
+        padding: 0px; } }
+
+@media (max-width: 426px) {
+  .gridServicios .estilos-servicios {
+    margin: 30px; }
+    .gridServicios .estilos-servicios img {
+      width: 326px;
+      height: 325px; } }
+
+@media (max-width: 376px) {
+  .gridServicios .estilos-servicios {
+    margin: 20px 20px 20px 20px; }
+    .gridServicios .estilos-servicios img {
+      width: 259px;
+      height: 310px; } }
 
 .gridGaleria {
   display: grid;
@@ -180,7 +220,7 @@ footer {
   color: #ffffff; }
   .cursos h1 {
     font-size: 4rem;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     padding: 70px 0px 0px 20px;
     padding-left: 40px; }
   .cursos div {
@@ -190,7 +230,7 @@ footer {
     padding: 0px 30px 100px 30px; }
     .cursos div p {
       font-size: 2rem;
-      font-family: 'Akshar', sans-serif;
+      font-family: "Akshar", sans-serif;
       text-shadow: 1px 0px 20px #000000;
       box-shadow: 0px 0px 20px 10px black;
       background-color: #00000030;
@@ -201,6 +241,42 @@ footer {
       border-radius: 67px;
       box-shadow: 0px 0px 11px 0px black;
       margin-left: 24px; }
+
+@media (max-width: 768px) {
+  .cursos h1 {
+    text-align: center; }
+  .cursos div {
+    flex-direction: column;
+    text-align: center;
+    flex-direction: column; }
+    .cursos div p {
+      width: 434px; }
+    .cursos div video {
+      margin-top: 40px;
+      margin-left: 0px; } }
+
+@media (max-width: 426px) {
+  .cursos h1 {
+    padding: 20px 0px 0px; }
+  .cursos div {
+    padding: 20px 20px 20px 20px; }
+    .cursos div p {
+      width: 331px; }
+    .cursos div video {
+      margin: 20px 10px; } }
+
+@media (max-width: 376px) {
+  .cursos h1 {
+    padding: 20px; }
+  .cursos div {
+    flex-direction: column;
+    padding: 20px 20px 20px 20px; }
+    .cursos div p {
+      font-size: 1.5rem;
+      max-width: 286px; }
+    .cursos div video {
+      margin: 20px;
+      max-height: 293px; } }
 
 .mainContacto {
   display: flex;
@@ -221,7 +297,7 @@ footer {
       padding: 24px; }
     .mainContacto .seccion .form p {
       font-size: 40px;
-      font-family: 'Bebas Neue', cursive;
+      font-family: "Bebas Neue", cursive;
       padding-bottom: 10px; }
     .mainContacto .seccion .form input {
       margin: 10px;
@@ -229,13 +305,13 @@ footer {
       border: 1px solid #ced4da;
       border-radius: 0.25rem;
       font-size: 20px;
-      font-family: 'Akshar', sans-serif; }
+      font-family: "Akshar", sans-serif; }
     .mainContacto .seccion .form textarea {
       padding: 16px;
       border: 1px solid #ced4da;
       border-radius: 1.25rem; }
     .mainContacto .seccion .form button {
-      font-family: 'Akshar', sans-serif;
+      font-family: "Akshar", sans-serif;
       font-size: 20px;
       height: 34px;
       width: 192px;
@@ -247,6 +323,25 @@ footer {
         background-color: #370058;
         color: #ced4da;
         transform: scale(1.1); }
+
+@media (max-width: 426px) {
+  .mainContacto .seccion {
+    width: 300px;
+    margin: 0px; }
+    .mainContacto .seccion .form input {
+      text-align: center; }
+    .mainContacto .seccion .form textarea {
+      padding: 0px;
+      width: 100%;
+      height: 250px;
+      text-align: center;
+      font-family: "Akshar", sans-serif;
+      font-size: 20px; } }
+
+@media (max-width: 376px) {
+  .mainContacto .seccion .form input {
+    max-height: 12px;
+    max-width: 200px; } }
 
 body {
   background-image: url(https://res.cloudinary.com/dbaqismy5/image/upload/v1656199795/fondoVioleta_b8aqks.jpg);

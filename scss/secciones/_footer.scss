@@ -9,17 +9,10 @@ footer {
         align-items: center;
         flex-wrap: nowrap;
 
-        i {
-            color: $textoVioleta;
-            font-size: 40px;
-            transition: all 0.5s;
-            margin: 3px;
-
-            &:hover {
-                transform: scale(1.1);
-            }
-
+        i{
+            @extend %iconos-redes;
         }
+
     }
 
     .fa-instagram {
@@ -29,19 +22,17 @@ footer {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            transform: scale(1.2);
         }
     }
 
-    .fa-whatsapp {
-        &:hover {
-            color: rgb(17, 169, 0);
-        }
+
+     .fa-whatsapp {
+        @include hover-footer (rgb(17, 169, 0));
     }
 
-    .fa-facebook{
-        &:hover{
-            color: rgb(0, 32, 236);
-        }
+     .fa-facebook {
+        @include hover-footer (rgb(0, 32, 236));
     }
 
-}
+ }

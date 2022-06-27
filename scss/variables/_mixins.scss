@@ -1,0 +1,6 @@
+@mixin hover-footer ($colorIconos) {
+    &:hover {
+        transform: scale(1.2);
+        color: $colorIconos
+    }
+}
