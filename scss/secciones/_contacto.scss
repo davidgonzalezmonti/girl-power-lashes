@@ -17,6 +17,7 @@
             flex-wrap: nowrap;
             text-align: center;
             padding: 24px;
+            box-shadow: 0px 0px 20px 5px #8b8383;
         }
 
         .form p {
@@ -32,12 +33,18 @@
             border-radius: 0.25rem;
             font-size: 20px;
             font-family: $Akshar;
+            &:hover {
+                filter: drop-shadow(0px 2px 2px black);
+            }
         }
 
         .form textarea {
             padding: 16px;
             border: 1px solid #ced4da;
             border-radius: 1.25rem;
+            &:hover {
+                filter: drop-shadow(0px 2px 2px black);
+            }
         }
 
         .form button {

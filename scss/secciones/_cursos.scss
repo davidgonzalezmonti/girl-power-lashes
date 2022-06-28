@@ -1,7 +1,7 @@
 .cursos {
     display: flex;
     flex-direction: column;
-    color: #ffffff;
+    color: $textoPrincipal;
 
     h1 {
         font-size: 4rem;
@@ -21,7 +21,7 @@
             font-family: $Akshar;
             text-shadow: 1px 0px 20px #000000;
             box-shadow: 0px 0px 20px 10px black;
-            background-color: #00000030;
+            background-color: $transNegro;
             border-radius: 20px;
             padding: 10px;
         }
