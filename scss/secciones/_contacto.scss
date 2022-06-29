@@ -8,13 +8,10 @@
     .seccion {
         width: 700px;
         border: #ffffff 1px solid;
-        margin: 14px;
         border-radius: 10px;
         background-color: #ffffff7a;
 
         .form {
-            display: block;
-            flex-wrap: nowrap;
             text-align: center;
             padding: 24px;
             box-shadow: 0px 0px 20px 5px #8b8383;
@@ -24,6 +21,11 @@
             font-size: 40px;
             font-family: $Bebas;
             padding-bottom: 10px;
+            transition: all 0.8s ease;
+            &:hover{
+                transform: scale(1.1);
+                filter: drop-shadow(0px 2px 2px rgb(255, 255, 255));
+            }
         }
 
         .form input {
@@ -64,6 +66,21 @@
             }
         }
     }
+}
+
+
+@media (min-width:1700px){
+    .mainContacto{
+        height: 100vh;
+        .seccion{
+            .form{
+                padding: 62px;
+        }
+        .form textarea{
+            width: 100%;
+        }
+    }
+}
 }
 
 @media (max-width:426px) {

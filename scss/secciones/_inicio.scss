@@ -39,7 +39,24 @@
     }
 }
 
-
+@media (min-width:1700px) {
+    .main {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1{
+            height: auto;
+            font-size: 7rem;
+        }
+        img{
+            height: 530px;
+        }
+        h2{
+            font-size: 3rem;
+        }
+    }
+}
 
 @media (max-width: 426px) {
 
