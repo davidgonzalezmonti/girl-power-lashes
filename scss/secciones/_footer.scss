@@ -11,7 +11,7 @@ footer {
         margin-bottom: 0rem;
     }
 
-    h5{
+    h5 {
         position: absolute;
         margin-left: 20px;
         font-size: 15px;
@@ -51,35 +51,36 @@ footer {
 
 }
 
-@media (max-width: 1100px){
-    footer{
-        h5{
+@media (max-width: 1100px) {
+    footer {
+        h5 {
             font-size: 12px;
         }
     }
 }
 
-@media (max-width: 430px){
-    footer{
+@media (max-width: 430px) {
+    footer {
         height: 100px;
-        h5{
+
+        h5 {
             margin-top: 50px;
             margin-left: 119px;
         }
     }
 }
 
-@media (max-width: 380px){
-    footer{
-        h5{
+@media (max-width: 380px) {
+    footer {
+        h5 {
             margin-left: 95px;
         }
     }
 }
 
-@media (max-width: 330px){
-    footer{
-        h5{
+@media (max-width: 330px) {
+    footer {
+        h5 {
             margin-left: 69px;
         }
     }
