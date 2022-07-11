@@ -112,7 +112,7 @@
 @media (max-width:426px) {
     .gridServicios {
         .estilos-servicios {
-            margin: 30px;
+            margin: 61px 34px 61px 34px;
 
             img {
                 width: 326px;
@@ -125,11 +125,22 @@
 @media (max-width:376px) {
     .gridServicios {
         .estilos-servicios {
-            margin: 20px 20px 20px 20px;
 
             img {
                 width: 259px;
                 height: 310px;
+            }
+        }
+    }
+}
+
+@media (max-width:321px) {
+    .gridServicios {
+        .estilos-servicios {
+
+            img {
+                width: 222px;
+                    height: 219px;
             }
         }
     }

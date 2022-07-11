@@ -245,17 +245,20 @@ footer {
 
 @media (max-width: 426px) {
   .gridServicios .estilos-servicios {
-    margin: 30px; }
+    margin: 61px 34px 61px 34px; }
     .gridServicios .estilos-servicios img {
       width: 326px;
       height: 325px; } }
 
 @media (max-width: 376px) {
-  .gridServicios .estilos-servicios {
-    margin: 20px 20px 20px 20px; }
-    .gridServicios .estilos-servicios img {
-      width: 259px;
-      height: 310px; } }
+  .gridServicios .estilos-servicios img {
+    width: 259px;
+    height: 310px; } }
+
+@media (max-width: 321px) {
+  .gridServicios .estilos-servicios img {
+    width: 222px;
+    height: 219px; } }
 
 .gridGaleria {
   display: grid;
@@ -267,7 +270,7 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 15px;
     transition: all 0.8s ease; }
     .gridGaleria img:hover {
       transform: scale(1.1);
@@ -285,7 +288,7 @@ footer {
 @media (max-width: 426px) {
   .gridGaleria {
     grid-template-columns: repeat(1, 1fr);
-    padding: 15px;
+    padding: 32px;
     height: auto; } }
 
 .cursos {
@@ -352,26 +355,31 @@ footer {
 
 @media (max-width: 426px) {
   .cursos h1 {
-    padding: 20px 0px 0px; }
+    padding: 20px 0px 0px;
+    font-size: 4rem; }
   .cursos div {
     padding: 20px 20px 20px 20px; }
     .cursos div p {
-      width: 331px; }
+      width: 331px;
+      font-size: 1.5rem; }
     .cursos div video {
-      margin: 20px 10px; } }
+      margin: 20px 10px;
+      max-height: 296px; } }
 
 @media (max-width: 376px) {
   .cursos h1 {
-    padding: 20px; }
+    padding: 20px;
+    font-size: 60px; }
   .cursos div {
     flex-direction: column;
     padding: 20px 20px 20px 20px; }
     .cursos div p {
       font-size: 1.5rem;
-      max-width: 286px; }
+      max-width: 286px;
+      font-size: 20px; }
     .cursos div video {
       margin: 20px;
-      max-height: 293px; } }
+      max-height: 271px; } }
 
 .mainContacto {
   display: flex;

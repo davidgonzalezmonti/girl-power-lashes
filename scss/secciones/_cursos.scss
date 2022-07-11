@@ -89,6 +89,7 @@
     .cursos {
         h1 {
             padding: 20px 0px 0px;
+            font-size: 4rem;
 
         }
 
@@ -97,10 +98,12 @@
 
             p {
                 width: 331px;
+                font-size: 1.5rem;
             }
 
             video {
                 margin: 20px 10px;
+                max-height: 296px;
             }
         }
     }
@@ -111,6 +114,7 @@
     .cursos {
         h1 {
             padding: 20px;
+            font-size: 60px;
         }
 
         div {
@@ -120,11 +124,12 @@
             p {
                 font-size: 1.5rem;
                 max-width: 286px;
+                font-size: 20px;
             }
 
             video {
                 margin: 20px;
-                max-height: 293px;
+                max-height: 271px;
             }
         }
     }
