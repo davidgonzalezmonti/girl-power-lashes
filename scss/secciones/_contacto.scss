@@ -22,7 +22,8 @@
             font-family: $Bebas;
             padding-bottom: 10px;
             transition: all 0.8s ease;
-            &:hover{
+
+            &:hover {
                 transform: scale(1.1);
                 filter: drop-shadow(0px 2px 2px rgb(255, 255, 255));
             }
@@ -35,6 +36,7 @@
             border-radius: 0.25rem;
             font-size: 20px;
             font-family: $Akshar;
+
             &:hover {
                 filter: drop-shadow(0px 2px 2px black);
             }
@@ -44,6 +46,7 @@
             padding: 16px;
             border: 1px solid #ced4da;
             border-radius: 1.25rem;
+
             &:hover {
                 filter: drop-shadow(0px 2px 2px black);
             }
@@ -69,18 +72,20 @@
 }
 
 
-@media (min-width:1700px){
-    .mainContacto{
+@media (min-width:1700px) {
+    .mainContacto {
         height: 100vh;
-        .seccion{
-            .form{
+
+        .seccion {
+            .form {
                 padding: 62px;
-        }
-        .form textarea{
-            width: 100%;
+            }
+
+            .form textarea {
+                width: 100%;
+            }
         }
     }
-}
 }
 
 @media (max-width:426px) {
@@ -111,8 +116,8 @@
         .seccion {
 
             .form input {
-                max-height: 12px;
-                max-width: 200px;
+                max-height: 49px;
+                max-width: 226px;
             }
         }
     }

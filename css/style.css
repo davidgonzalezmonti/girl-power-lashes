@@ -457,8 +457,8 @@ footer {
 
 @media (max-width: 376px) {
   .mainContacto .seccion .form input {
-    max-height: 12px;
-    max-width: 200px; } }
+    max-height: 49px;
+    max-width: 226px; } }
 
 body {
   background-image: url(https://res.cloudinary.com/dbaqismy5/image/upload/v1656199795/fondoVioleta_b8aqks.jpg);
